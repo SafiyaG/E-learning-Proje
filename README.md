@@ -1,1 +1,1 @@
-# StudentPortalProje
+# Student Portal
