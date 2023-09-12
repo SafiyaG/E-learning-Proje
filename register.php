@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Registration</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
-    <!-- You can also include your custom CSS styles here if needed -->
+    
 
     <style>
         body {
@@ -75,7 +75,7 @@
                 $fullname = $email = $password = "";
                 $registration_error = "";
 
-                // Database connection code (replace with your own)
+            
                 $mysqli = new mysqli("localhost", "root", "", "registrations");
 
                 // Check if the connection was successful
@@ -148,6 +148,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
-    <!-- Include other JavaScript files or custom scripts here if needed -->
+   
 </body>
 </html>
