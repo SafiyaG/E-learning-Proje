@@ -1,10 +1,18 @@
 /* Index page styles */
+body {
+    background-image: url(images/b1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+ 
+}
+
 .jumbotron {
-    background-image: url(images/campus.jpg);
-    background-color: rgba(255, 255, 255, 0.82);
-    border-radius: 10px;
+    
+    /* background-color: rgba(255, 255, 255, 0.82); */
+    border-radius: 5px;
     padding: 30px;
     text-align: center;
-    
+   
 } 
-
