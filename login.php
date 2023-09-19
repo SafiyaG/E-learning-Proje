@@ -7,7 +7,6 @@
     <style>
         body {
             background: linear-gradient(135deg, #ffffff, #007F00);
-            
             background-size: cover;
             background-position: center;
             font-family: Arial, sans-serif;

@@ -13,7 +13,7 @@ $user_id = $_SESSION["id"];
 
 // Retrieve user information from the database
 $sql = "SELECT fullname, email FROM users WHERE id=?";
-$stmt = $conn->prepare($sql);
+$stmt = $conn1->prepare($sql);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
 $result = $stmt->get_result();
@@ -23,7 +23,7 @@ $fullname = $row["fullname"];
 $email = $row["email"];
 
 $stmt->close();
-$conn->close();
+$conn1->close();
 ?>
 
 <!DOCTYPE html>
@@ -97,7 +97,7 @@ input[type="submit"]:hover {
     </style>
 </head>
 <body>
-    <h2>Student Profile</h2>
+   <h2>Student Profile</h2>
     <p><strong>Full Name:</strong> <?php echo $fullname; ?></p>
     <p><strong>Email:</strong> <?php echo $email; ?></p>
 

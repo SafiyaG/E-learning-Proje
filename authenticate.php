@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Check user's credentials in the database
     $sql = "SELECT id, password FROM users WHERE email=?";
-    $stmt = $conn->prepare($sql);
+    $stmt = $conn1->prepare($sql);
     $stmt->bind_param("s", $email);
     $stmt->execute();
     $result = $stmt->get_result();
@@ -39,5 +39,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->close();
 }
 
-$conn->close();
+$conn1->close();
 ?>
