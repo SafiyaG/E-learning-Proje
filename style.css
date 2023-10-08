@@ -1,11 +1,10 @@
 /* Index page styles */
 body {
-    background-image: url(images/b1.jpg);
+    background-image: url(images/campus.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: end;
     background-size: cover;
     height: 100%;
- 
 }
 
 .jumbotron {
@@ -16,3 +15,16 @@ body {
     text-align: center;
    
 } 
+
+/* navbar styles */
+.navbar{
+    background-color: rgb(84, 61, 253);
+     color: white;
+} 
+.navbar .container a{
+    color: white;
+} 
+.container1 .jumbotron h4{
+  color: rgb(13, 154, 6);
+  
+}
