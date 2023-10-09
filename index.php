@@ -25,10 +25,10 @@
                         <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Profile</a>
+                        <a class="nav-link" href="login.php">Profile</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Courses</a>
+                    <li class="nav-item bg-warning rounded-pill px-2">
+                        <a class="nav-link text-primary"   href="https://diu.ac/">Learn more </a>
                     </li>
                     
                 </ul>
