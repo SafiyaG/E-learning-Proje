@@ -24,6 +24,11 @@ body {
 .navbar .container a{
     color: white;
 } 
+.navbar .container ul li #learnmore{
+    color: yellow;
+}
+
+
 .container1 .jumbotron h4{
   color: rgb(13, 154, 6);
   
