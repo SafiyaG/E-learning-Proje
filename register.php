@@ -96,6 +96,8 @@
                 $registration_error = "";
 
             
+
+                
                 $mysqli = new mysqli("localhost", "root", "", "diuportal");
 
                 // Check if the connection was successful

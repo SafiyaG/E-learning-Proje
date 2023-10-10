@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $stmt->execute();
     $result = $stmt->get_result();
 
+    
+
     if ($result->num_rows == 1) {
         $row = $result->fetch_assoc();
         $user_id = $row["id"];

@@ -12,5 +12,7 @@ if ($conn->connect_error) {
     die("Connection to registrations database failed: " . $conn->connect_error);
 }
 
+
+
  
 ?>
