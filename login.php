@@ -6,7 +6,7 @@
     <title> DIU Student Portal Login</title>
     <style>
         body {
-            background: linear-gradient(135deg, #ffffff, #007F00);
+            background: url("images/bg2.jpg");
             
             background-size: cover;
             background-position: center;
@@ -68,6 +68,7 @@
 </head>
 <body>
     <div class="container">
+    <img   src="images/logo2.png" alt="" width="70" height="70">
         <h2> DIU Student Portal Login</h2>
         <form action="authenticate.php" method="post">
             <label for="email">Email:</label>
@@ -80,4 +81,5 @@
         </form>
     </div>
 </body>
+
 </html>
