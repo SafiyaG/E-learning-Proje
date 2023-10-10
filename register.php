@@ -9,27 +9,45 @@
 
     <style>
         body {
-            background: linear-gradient(135deg, #ffffff, #007F00);
+            background: url("images/campus.jpg");
             background-size: cover;
             background-position: center;
+            background-repeat: none;
             font-family: Arial, sans-serif;
-            margin: 0;
+            margin: 0 0 0 35%;
             padding: 0;
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: end;
+            align-items: start;
             height: 100vh;
+            width: 400px;
         }
 
+
+
         .container {
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 30px;
+            background-color: rgb(154, 235, 253);
+            padding: 5px;
             border-radius: 10px;
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            
+        }
+        .container .card .card-body{
+            background: url("images/bg1.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: none;
+           border-radius: 5px;
+        }
+        .container .card .card-title{
+            font-size: x-large;
+            font-weight: bold;
+            color: blue;
         }
 
         form {
+      
             max-width: 300px;
             margin: 0 auto;
         }
@@ -66,17 +84,21 @@
 </head>
 <body>
     <div class="container mt-5">
+    <img class="mb-2" src="images/logo2.png" alt="" width="80" height="80">
         <div class="card">
             <div class="card-body">
-                <h1 class="card-title">User Registration</h1>
-
+              
+                <h1 class="card-title mb-3 ">User Registration</h1>
+     
                 <?php
                 // Initialize variables
                 $fullname = $email = $password = "";
                 $registration_error = "";
 
             
-                $mysqli = new mysqli("localhost", "root", "", "registrations");
+
+                
+                $mysqli = new mysqli("localhost", "root", "", "diuportal");
 
                 // Check if the connection was successful
                 if ($mysqli->connect_error) {

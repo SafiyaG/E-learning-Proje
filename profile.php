@@ -13,7 +13,7 @@ $user_id = $_SESSION["id"];
 
 // Retrieve user information from the database
 $sql = "SELECT fullname, email FROM users WHERE id=?";
-$stmt = $conn1->prepare($sql);
+$stmt = $conn->prepare($sql);
 $stmt->bind_param("i", $user_id);
 $stmt->execute();
 $result = $stmt->get_result();
@@ -23,8 +23,10 @@ $fullname = $row["fullname"];
 $email = $row["email"];
 
 $stmt->close();
-$conn1->close();
+$conn->close();
 ?>
+
+
 
 <!DOCTYPE html>
 <html>

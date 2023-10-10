@@ -24,6 +24,7 @@
             <li><a href="logout.php">Logout</a></li>
         </ul>
     </nav>
+    
 
     <main class="dashboard-main">
         <section class="enrolled-courses">
