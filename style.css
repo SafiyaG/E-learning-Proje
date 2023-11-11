@@ -1,11 +1,10 @@
 /* Index page styles */
 body {
-    background-image: url(images/b1.jpg);
+    background-image: url(images/campus.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: end;
     background-size: cover;
     height: 100%;
- 
 }
 
 .jumbotron {
@@ -14,5 +13,24 @@ body {
     border-radius: 5px;
     padding: 30px;
     text-align: center;
-   
+   background-color: rgb(154, 235, 253);
 } 
+
+
+/* navbar styles */
+.navbar{
+    background-color: rgb(84, 61, 253);
+     color: white;
+} 
+.navbar .container a{
+    color: white;
+} 
+.navbar .container ul li #learnmore{
+    color: yellow;
+}
+
+
+.container1 .jumbotron h4{
+  color: rgb(14, 154, 6);
+  
+}

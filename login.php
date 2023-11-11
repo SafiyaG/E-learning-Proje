@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University Student Portal Login</title>
+    <title> DIU Student Portal Login</title>
     <style>
         body {
-            background: linear-gradient(135deg, #ffffff, #007F00);
+            background: url("images/bg2.jpg");
+            
             background-size: cover;
             background-position: center;
             font-family: Arial, sans-serif;
@@ -67,7 +68,8 @@
 </head>
 <body>
     <div class="container">
-        <h2>University Student Portal Login</h2>
+    <img   src="images/logo2.png" alt="" width="70" height="70">
+        <h2> DIU Student Portal Login</h2>
         <form action="authenticate.php" method="post">
             <label for="email">Email:</label>
             <input type="text" name="email" required>
@@ -79,4 +81,5 @@
         </form>
     </div>
 </body>
+
 </html>
